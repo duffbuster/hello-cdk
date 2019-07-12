@@ -7,7 +7,8 @@ export class HelloCdkStack extends core.Stack {
 
     // The code that defines your stack goes here
     new awsS3.Bucket(this, 'MyFirstBucket', {
-      versioned: true
+      versioned: true,
+      encryption: awsS3.BucketEncryption.KMS_MANAGED
     });
   }
 }
