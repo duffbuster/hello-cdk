@@ -1,6 +1,11 @@
 {
   "name": "hello-cdk",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duffbuster/hello-cdk"
+  },
+  "license": "MIT",
   "bin": {
     "hello-cdk": "bin/hello-cdk.js"
   },
